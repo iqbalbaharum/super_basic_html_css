@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+h1 { font-family: 'Roboto Slab', serif; }
+div { font-family: 'ZCOOL QingKe HuangYou', cursive; }
+.bg-primary { background-color: aqua; }
+.bg-secondary { background-color: chocolate; }
+.container { clear:both; padding: 20px; color: #000 }
+.radius-sm { border-radius: 5px; }
+.margin-top-sm { margin-top: 3px; }
+.margin-top-lg { margin-top: 10px; }
+
+.menu ul {padding: 0px; margin: 0px;}
+.menu ul li { list-style: none; }
+.menu ul li a {
+    float: right;
+    width: 100px;
+    padding :15px;
+    margin-right: 5px;
+    display:block;
+    background-color: aqua;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.menu ul li a:hover {
+    background-color:cadetblue;
+    color: blue
+}
+
+.menu ul li:nth-child(2) a {
+    background-color: brown;
+}

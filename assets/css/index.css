@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body { padding: 0px; margin: 0px; font-family: 'Roboto Slab', serif; }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    background: #76b852;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.content {
+    height: 98vh;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,c_limit,w_3840,q_auto/daily-synbiotic/Seed_PDP_01_Hero_1_NEW');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.col {
+    display:inline-block;
+    width:49%;
+}
+
+.text-h1 { font-size: 28px;}
+.h100 { height: 100% }
+.padding-sm { padding: 25px;}
+.border { border: 1px solid blueviolet}
+.vertical-align-center {
+    display: flex;
+    align-items: center;
+}
+
+/* button */
+a.button {
+    display: block;
+    width: 120px;
+}
+
+a.button::before {
+    content: url('../img/arrow-right_16px.png');
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+/* menu */
+.menu ul { padding: 0px; margin: 0px; }
+.menu li { list-style:  none; padding: 20px; }
+.menu li { float: left }
+.menu li a { font-weight: bold; color: #fff; letter-spacing: 1px}
+
+/* text-caption */
+.text-caption { font-size: 9px; }
